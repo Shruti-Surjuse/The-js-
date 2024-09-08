@@ -13,10 +13,13 @@ const n=1000000
 
 // ====================== Math
 console.log(Math);//it is object itself
-console.log(Math.abs(-4)); //it wil only convert the negative value to poditive 
-console.log(Math.round(4.4)); // it will give 4 only if decimal value is more than 5 than it will consider 4.6 as 5 
-console.log(Math.ceil(4.5)); // if value is bigger than 4 even if it is in points it will consider it 5 
-console.log(Math.floor(4.5)); // it will consider it 4 only 
+// console.log(Math.abs(-4)); //it wil only convert the negative value to poditive 
+// console.log(Math.round(4.4)); // it will give 4 only if decimal value is more than 5 than it will consider 4.6 as 5 
+// console.log(Math.ceil(4.5)); // if value is bigger than 4 even if it is in points it will consider it 5 
+// console.log(Math.floor(4.5)); // it will consider it 4 only 
+console.log(Math.min(4,5,6,1,2));
+console.log(Math.max(4,5,6,8));
+console.log((Math.random()*10)+1);//random gives the value between 0 and 1 , and in some cases we want to avoid 0.0 value so for that add 1 
 
 
 
