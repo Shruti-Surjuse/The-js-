@@ -58,13 +58,73 @@
 
 // a=""=> false, a="shruti"=>true,a=0=>false
 
-let b=33
-console.log(b);
-console.log(typeof b);
+// let b=33
+// console.log(b);
+// console.log(typeof b);
 
-let string=String(b)
-console.log(string);
-console.log(typeof string);
+// let string=String(b)
+// console.log(string);
+// console.log(typeof string);
+
+// confustion while converting string into number
+// operations *************
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/3);
+// console.log(2%3);
+
+// let a="hi";
+// let b=" hellow"
+// let c=a+b
+// console.log(c);
+// console.log("1"+"2");//string 
+// console.log("1"+2+3);// string
+// console.log("1"+2);//string
+// console.log(1+"2");
+// console.log(1+2+"3");// treat as a number 
+
+// console.log(+true);// it will print number 1 because of + 
+// console.log(+"");// it will print 0 
+// console.log(true+);// but its not valid 
+
+// prefix and postfix ++a , a++
+
+// comparison of datatype 
+// console.log(2<1);
+// console.log(2>1);
+// console.log(2==1);
+// console.log(2>=1);
+// console.log(2<=1);
+// console.log(2!=1);
+
+//string value comaprison
+// console.log("2">1); //it will automtically convert this string valur into number
+
+//null  and undefine value comaprison (avoid this tpe of converion its unpredictable sometimes)
+// console.log(null>0);// in comparisons > and == works differantly it treated as a empty string but in >= or <= it treated as a number 0 so it will retuen true 
+// console.log(null==0);
+// console.log(null>=0);//exception
+// console.log(null<=0);//exception
+
+// console.log(undefined>0);// it will give false for evey comparison 
+// console.log(undefined<0);
+// console.log(undefined==0);
+// console.log(undefined>=0);
+
+// (===) its check the value and the their datatype strictly 
+console.log("3"===3);
+
+
+
+
+
+
+
+
+
+
 
 
 
